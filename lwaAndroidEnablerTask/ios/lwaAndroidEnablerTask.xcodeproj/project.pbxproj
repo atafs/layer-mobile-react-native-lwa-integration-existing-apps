@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		16C03335336607EEB55AF1E7 /* libPods-lwaAndroidEnablerTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF0045688F3A06C5E739D74 /* libPods-lwaAndroidEnablerTask.a */; };
-		283B7F5F470EB83EAAE362BC /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9691706F8EA2D3F58E4D6682 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */; };
+		18D253E7219688771723FFF3 /* libPods-lwaAndroidEnablerTask-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61930666CCD6F72B10867CCB /* libPods-lwaAndroidEnablerTask-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* lwaAndroidEnablerTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lwaAndroidEnablerTaskTests.m */; };
-		50FFED96FEF4E9A99087F6EE /* libPods-lwaAndroidEnablerTask-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AED2F66EB87D06197F124CA /* libPods-lwaAndroidEnablerTask-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CC7F2399D1B8AFCD6A5F2C0A /* libPods-lwaAndroidEnablerTask-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F915BA1C6299E4593E88BC0A /* libPods-lwaAndroidEnablerTask-tvOSTests.a */; };
+		8E5009FFA3F432B5C78E872C /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C93FE52ECC172ABD150FC38 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */; };
+		99E2432FA69A324A1B8C1B24 /* libPods-lwaAndroidEnablerTask-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F68A9FD0EC60B8B5D107B7D6 /* libPods-lwaAndroidEnablerTask-tvOS.a */; };
+		D162ADE0A14A9AE2FB04B273 /* libPods-lwaAndroidEnablerTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4663F3766E3BD851C84EC0 /* libPods-lwaAndroidEnablerTask.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* lwaAndroidEnablerTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lwaAndroidEnablerTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* lwaAndroidEnablerTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lwaAndroidEnablerTaskTests.m; sourceTree = "<group>"; };
-		03C4041E8045DC7A29F743E6 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* lwaAndroidEnablerTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lwaAndroidEnablerTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = lwaAndroidEnablerTask/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = lwaAndroidEnablerTask/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = lwaAndroidEnablerTask/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = lwaAndroidEnablerTask/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = lwaAndroidEnablerTask/main.m; sourceTree = "<group>"; };
-		1A3A7F1CF45372775E2BF24B /* Pods-lwaAndroidEnablerTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask/Pods-lwaAndroidEnablerTask.debug.xcconfig"; sourceTree = "<group>"; };
-		27F0A2E88BCCF3C750307704 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOS/Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2C93FE52ECC172ABD150FC38 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* lwaAndroidEnablerTask-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lwaAndroidEnablerTask-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* lwaAndroidEnablerTask-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lwaAndroidEnablerTask-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3435AC1A5AA740A74FEF67E5 /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOS/Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		4B00A953AC5752218B0AC744 /* Pods-lwaAndroidEnablerTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask/Pods-lwaAndroidEnablerTask.release.xcconfig"; sourceTree = "<group>"; };
-		5AED2F66EB87D06197F124CA /* libPods-lwaAndroidEnablerTask-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6880AFDCB033C9A746ED336E /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB6503F6935796629488CDF /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOSTests/Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F823A276C0853F811AD6C17 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61930666CCD6F72B10867CCB /* libPods-lwaAndroidEnablerTask-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = lwaAndroidEnablerTask/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82017C03F2B111837E359F87 /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOSTests/Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9691706F8EA2D3F58E4D6682 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC998A631D91850653BE10F /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOSTests/Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A28F073D41E0F4E6A95A345C /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOS/Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AD4663F3766E3BD851C84EC0 /* libPods-lwaAndroidEnablerTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4C6BA63FBE9949B5AAB725 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA8225BA8FC75638EC055D6 /* Pods-lwaAndroidEnablerTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask/Pods-lwaAndroidEnablerTask.release.xcconfig"; sourceTree = "<group>"; };
+		CF1A8E205E58A761CD2C8568 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOS/Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD4C5C13D84D26189849DF3 /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask-tvOSTests/Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7ED0B0050BB6DC2019DE1B0 /* Pods-lwaAndroidEnablerTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lwaAndroidEnablerTask.debug.xcconfig"; path = "Target Support Files/Pods-lwaAndroidEnablerTask/Pods-lwaAndroidEnablerTask.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F915BA1C6299E4593E88BC0A /* libPods-lwaAndroidEnablerTask-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDF0045688F3A06C5E739D74 /* libPods-lwaAndroidEnablerTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68A9FD0EC60B8B5D107B7D6 /* libPods-lwaAndroidEnablerTask-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lwaAndroidEnablerTask-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283B7F5F470EB83EAAE362BC /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a in Frameworks */,
+				8E5009FFA3F432B5C78E872C /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C03335336607EEB55AF1E7 /* libPods-lwaAndroidEnablerTask.a in Frameworks */,
+				D162ADE0A14A9AE2FB04B273 /* libPods-lwaAndroidEnablerTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FFED96FEF4E9A99087F6EE /* libPods-lwaAndroidEnablerTask-tvOS.a in Frameworks */,
+				99E2432FA69A324A1B8C1B24 /* libPods-lwaAndroidEnablerTask-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7F2399D1B8AFCD6A5F2C0A /* libPods-lwaAndroidEnablerTask-tvOSTests.a in Frameworks */,
+				18D253E7219688771723FFF3 /* libPods-lwaAndroidEnablerTask-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,17 +136,17 @@
 			name = lwaAndroidEnablerTask;
 			sourceTree = "<group>";
 		};
-		241912B6B772CA0DE447E279 /* Pods */ = {
+		1CB9BB60C8F556E0C6CA233F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1A3A7F1CF45372775E2BF24B /* Pods-lwaAndroidEnablerTask.debug.xcconfig */,
-				4B00A953AC5752218B0AC744 /* Pods-lwaAndroidEnablerTask.release.xcconfig */,
-				6880AFDCB033C9A746ED336E /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */,
-				03C4041E8045DC7A29F743E6 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */,
-				27F0A2E88BCCF3C750307704 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */,
-				3435AC1A5AA740A74FEF67E5 /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */,
-				82017C03F2B111837E359F87 /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */,
-				BEC998A631D91850653BE10F /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */,
+				E7ED0B0050BB6DC2019DE1B0 /* Pods-lwaAndroidEnablerTask.debug.xcconfig */,
+				CAA8225BA8FC75638EC055D6 /* Pods-lwaAndroidEnablerTask.release.xcconfig */,
+				5F823A276C0853F811AD6C17 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */,
+				BD4C6BA63FBE9949B5AAB725 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */,
+				CF1A8E205E58A761CD2C8568 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */,
+				A28F073D41E0F4E6A95A345C /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */,
+				2EB6503F6935796629488CDF /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */,
+				DDD4C5C13D84D26189849DF3 /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FDF0045688F3A06C5E739D74 /* libPods-lwaAndroidEnablerTask.a */,
-				9691706F8EA2D3F58E4D6682 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */,
-				5AED2F66EB87D06197F124CA /* libPods-lwaAndroidEnablerTask-tvOS.a */,
-				F915BA1C6299E4593E88BC0A /* libPods-lwaAndroidEnablerTask-tvOSTests.a */,
+				AD4663F3766E3BD851C84EC0 /* libPods-lwaAndroidEnablerTask.a */,
+				2C93FE52ECC172ABD150FC38 /* libPods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.a */,
+				F68A9FD0EC60B8B5D107B7D6 /* libPods-lwaAndroidEnablerTask-tvOS.a */,
+				61930666CCD6F72B10867CCB /* libPods-lwaAndroidEnablerTask-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* lwaAndroidEnablerTaskTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				241912B6B772CA0DE447E279 /* Pods */,
+				1CB9BB60C8F556E0C6CA233F /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lwaAndroidEnablerTaskTests" */;
 			buildPhases = (
-				6379999175AB150941BBCB70 /* [CP] Check Pods Manifest.lock */,
+				2F5B893241E16C0636E7FB59 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				097EFAC63EA353A94A9CE2BB /* [CP] Copy Pods Resources */,
+				D645EB198E5A9852106E3694 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lwaAndroidEnablerTask" */;
 			buildPhases = (
-				477E6D36D80D6042DFDB5FD6 /* [CP] Check Pods Manifest.lock */,
+				6F293FDF63D4C4F860F06811 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0EB16F2BCD971902AAE643AE /* [CP] Copy Pods Resources */,
+				2D5F825B1D35DD73D3B97254 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lwaAndroidEnablerTask-tvOS" */;
 			buildPhases = (
-				665EBEC5341D00F9B34B4D68 /* [CP] Check Pods Manifest.lock */,
+				3C3881C0AEEBD44650739F97 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lwaAndroidEnablerTask-tvOSTests" */;
 			buildPhases = (
-				DB2DDB3779ACD91B20E6640F /* [CP] Check Pods Manifest.lock */,
+				D0999AE3B766F39D80EF30BD /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,25 +377,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		097EFAC63EA353A94A9CE2BB /* [CP] Copy Pods Resources */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0EB16F2BCD971902AAE643AE /* [CP] Copy Pods Resources */ = {
+		2D5F825B1D35DD73D3B97254 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,43 +409,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lwaAndroidEnablerTask/Pods-lwaAndroidEnablerTask-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		477E6D36D80D6042DFDB5FD6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-lwaAndroidEnablerTask-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6379999175AB150941BBCB70 /* [CP] Check Pods Manifest.lock */ = {
+		2F5B893241E16C0636E7FB59 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,7 +431,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		665EBEC5341D00F9B34B4D68 /* [CP] Check Pods Manifest.lock */ = {
+		3C3881C0AEEBD44650739F97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,7 +453,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB2DDB3779ACD91B20E6640F /* [CP] Check Pods Manifest.lock */ = {
+		6F293FDF63D4C4F860F06811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lwaAndroidEnablerTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0999AE3B766F39D80EF30BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +495,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D645EB198E5A9852106E3694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests/Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6880AFDCB033C9A746ED336E /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */;
+			baseConfigurationReference = 5F823A276C0853F811AD6C17 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03C4041E8045DC7A29F743E6 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */;
+			baseConfigurationReference = BD4C6BA63FBE9949B5AAB725 /* Pods-lwaAndroidEnablerTask-lwaAndroidEnablerTaskTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3A7F1CF45372775E2BF24B /* Pods-lwaAndroidEnablerTask.debug.xcconfig */;
+			baseConfigurationReference = E7ED0B0050BB6DC2019DE1B0 /* Pods-lwaAndroidEnablerTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B00A953AC5752218B0AC744 /* Pods-lwaAndroidEnablerTask.release.xcconfig */;
+			baseConfigurationReference = CAA8225BA8FC75638EC055D6 /* Pods-lwaAndroidEnablerTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F0A2E88BCCF3C750307704 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */;
+			baseConfigurationReference = CF1A8E205E58A761CD2C8568 /* Pods-lwaAndroidEnablerTask-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3435AC1A5AA740A74FEF67E5 /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */;
+			baseConfigurationReference = A28F073D41E0F4E6A95A345C /* Pods-lwaAndroidEnablerTask-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82017C03F2B111837E359F87 /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 2EB6503F6935796629488CDF /* Pods-lwaAndroidEnablerTask-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEC998A631D91850653BE10F /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = DDD4C5C13D84D26189849DF3 /* Pods-lwaAndroidEnablerTask-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
