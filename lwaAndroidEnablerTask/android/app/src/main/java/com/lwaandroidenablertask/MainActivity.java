@@ -28,8 +28,8 @@ public class MainActivity extends ReactActivity {
 
   @Override    
   protected void onCreate(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);        
-      
+      super.onCreate(savedInstanceState);
+
       if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         if (!Settings.canDrawOverlays(this)) {
             Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
